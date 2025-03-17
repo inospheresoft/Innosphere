@@ -4,192 +4,239 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Stylesheet -->
-    <link rel="stylesheet" type="text/css" href="style.css">
-
-    <!-- Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100,200,300,400,500,600,700,800,900&display=swap"
-        rel="stylesheet">
-
-    <!-- Title -->
-    <title>Innosphere</title>
-
+    <title>Innospehere</title>
 </head>
 
-<body>
-    <div class="main">
+<body style="margin: 0; padding: 0; font-family: Arial, sans-serif; scroll-behavior: smooth; overflow-x: hidden; width: 100vw;">
 
-        <!-- Navbar Starts -->
-        <div class="nav-main"
-            style="width: 100%; background-color: white; padding: 15px 200px; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); position: fixed; top: 0; left: 0; z-index: 800; display: flex; align-items: center;">
+    <!-- Navbar -->
+    <div
+        style="position: fixed; top: 0; left: 0; width: 100%; height: 85px; display: flex; justify-content: space-between; align-items: center; background-color: white; padding: 0 30px; z-index: 1000;">
 
-            <!-- Logo on the left -->
-            <div class="logo-container" style="flex: 1;">
-                <img src="logo.png" alt="Innosphere logo" style="height: 50px;">
-            </div>
-
-            <!-- Centered menu -->
-            <ul class="menu-container"
-                style="flex: 2; display: flex; justify-content: center; gap: 20px; list-style: none; padding: 0; margin: 0;">
-                <li><a href="#" style="text-decoration: none; color: black; font-weight: bold;">Home</a></li>
-                <li><a href="#" style="text-decoration: none; color: black; font-weight: bold;">Services</a></li>
-                <li><a href="#" style="text-decoration: none; color: black; font-weight: bold;">Industries</a></li>
-                <li><a href="#" style="text-decoration: none; color: black; font-weight: bold;">Resources</a></li>
-                <li><a href="#" style="text-decoration: none; color: black; font-weight: bold;">Career</a></li>
-                <li><a href="#" style="text-decoration: none; color: black; font-weight: bold;">About</a></li>
-            </ul>
-
-            <!-- Button on the right -->
-            <div class="btn-container" style="flex: 1; display: flex; justify-content: flex-end;">
-                <a class="btn" href=""
-                    style="background-color: #007bff; color: white; padding: 10px 20px; text-decoration: none; border-radius: 35px; font-size: 14px;">Contact
-                    Us</a>
-
-            </div>
-
+        <!-- Logo on the left -->
+        <div style="padding: 15px;">
+            <img src="logo.png" alt="Innosphere logo" style="height: 60px;">
         </div>
 
-        <!-- Navbar Ends -->
+        <!-- Centered menu -->
+        <ul
+            style="display: grid; grid-template-columns: repeat(6, auto); justify-content: center; gap: 25px; list-style: none; margin: 0; padding: 10px;">
+            <li><a href="#home-section"
+                    style="text-decoration: none; color: black; font-weight: bold; font-size: 22px;">Home</a></li>
+            <li><a href="#services-section"
+                    style="text-decoration: none; color: black; font-weight: bold; font-size: 22px;">Services</a></li>
+            <li><a href="#industries-section"
+                    style="text-decoration: none; color: black; font-weight: bold; font-size: 22px;">Industries</a></li>
+            <li><a href="#resources-section"
+                    style="text-decoration: none; color: black; font-weight: bold; font-size: 22px;">Resources</a></li>
+            <li><a href="#career-section"
+                    style="text-decoration: none; color: black; font-weight: bold; font-size: 22px;">Career</a></li>
+            <li><a href="#about-section"
+                    style="text-decoration: none; color: black; font-weight: bold; font-size: 22px;">About</a></li>
+        </ul>
 
-        <!-- Home Section Starts -->
-        <div class="home-section">
 
-
-            <div class="hero-main">
-                <div class="hero-contaner">
-                    <h2 class="hero-title h2">INNOSPHERE</h2>
-                    <h3 class="hero-subtitle h5">SOFTWARE SOLUTIONS INC.</h3>
-                    <p class="hero-description ">Innosphere offers BPO services, specializing in customer service, data
-                        management, and back-office support, using advanced technology to improve efficiency and reduce
-                        costs for clients across industries.</p>
-
-                    <a class="btn hero-button" href="#">About us</a>
-                </div>
-
-            </div>
-
+        <!-- Button on the right -->
+        <div style="text-align: center; padding: 15px;">
+            <a href="#"
+                style="background-color: #007bff; color: white; margin: 60px; padding: 12px 24px; text-decoration: none; border-radius: 35px; font-size: 18px; display: inline-block;">
+                Contact Us
+            </a>
         </div>
-        <!-- Home Section Ends -->
-
-        <!-- Services Starts-->
-        <div class="service-section"></div>
-        <!-- Services Ends-->
-
-        <!-- Industries Section Starts -->
-        <div class="industries-section" style="background-color: rgba(255, 0, 0, 0); padding: 20px;">
-            <h1 style="font-family: Arial, sans-serif; color: rgb(0, 0, 0); text-align: left; margin-bottom: 5px;">
-                Industries
-            </h1>
-            <h3
-                style="font-family: Arial, sans-serif; color: rgba(0, 0, 0, 0.582); text-align: left; font-weight: normal; margin-top: 0;">
-                A Wide Range of Business Areas Across Diverse Industries and Operational Functions
-            </h3>
-
-            <div class="industries-container"
-                style="display: flex; justify-content: space-between; gap: 20px; padding: 20px;">
-                <div class="industry"
-                    style="background-color: #f4f4f4; border: 1px solid #ccc; padding: 20px; flex: 1; text-align: left; box-sizing: border-box;">
-                    <h3 style="color: #363636;">Healthcare & Life Sciences</h3>
-                    <p style="color: #666;">We provide solutions for digital health, telemedicine, patient management
-                        systems, and compliance in the healthcare sector.</p>
-                </div>
-
-                <div class="industry"
-                    style="background-color: #f4f4f4; border: 1px solid #ccc; padding: 20px; flex: 1; text-align: left; box-sizing: border-box;">
-                    <h3 style="color: #363636;">Finance & Fintech</h3>
-                    <p style="color: #666;">Our solutions include payment processing, blockchain technologies, fraud
-                        detection, and financial data analytics.</p>
-                </div>
-
-                <div class="industry"
-                    style="background-color: #f4f4f4; border: 1px solid #ccc; padding: 20px; flex: 1; text-align: left; box-sizing: border-box;">
-                    <h3 style="color: #363636;">Retail & E-Commerce</h3>
-                    <p style="color: #666;">We support e-commerce platforms, personalized shopping experiences, supply
-                        chain management, and AI-driven recommendations.</p>
-                </div>
-
-                <div class="industry"
-                    style="background-color: #f4f4f4; border: 1px solid #ccc; padding: 20px; flex: 1; text-align: left; box-sizing: border-box;">
-                    <h3 style="color: #363636;">Manufacturing & Industrial</h3>
-                    <p style="color: #666;">We offer IoT solutions, predictive maintenance, supply chain optimization,
-                        and automation for manufacturing processes.</p>
-                </div>
-
-                <div class="industry"
-                    style="background-color: #f4f4f4; border: 1px solid #ccc; padding: 20px; flex: 1; text-align: left; box-sizing: border-box;">
-                    <h3 style="color: #363636;">Telecommunications</h3>
-                    <p style="color: #666;">Our solutions enhance network management, billing automation, cloud
-                        communications, and real-time service optimization.</p>
-                </div>
-            </div>
-        </div>
-        <!-- Industries Section Ends -->
-
-
-        <!-- Resources Starts-->
-        <div class="resources-section"></div>
-        <!-- Resources Ends-->
-
-        <!-- Career Starts-->
-        <div class="career-section">
-            <div class="career-overlay"></div>
-            <div class="career-text-content">
-                <h1>Careers</h1>
-                <p>"Join our team and explore exciting career opportunities to grow professionally and make an impact."
-                </p>
-                <div class="career-buttons">
-                    <button class="career-apply">Apply</button>
-                    <button class="career-know-more">Know more</button>
-                </div>
-            </div>
-        </div>
-
-        <!-- Career Ends-->
-
-        <!-- About Starts-->
-        <div class="about-section"></div>
-        <!-- About Ends-->
-
-        <!-- Footer Starts-->
-        <div class="footer-section">
-            <div class="footer-container">
-                <div class="foot-1">
-                    <h3 class="h3 foot-title">Experienced. Agile. Remote-Ready.</h3>
-                    <p class="foot-description">We're a dedicated, dynamic team that takes full responsibility
-                        for your customer interactions and supports you in executing your service goals, staying
-                        flexible and focused on delivering outstanding results.</p>
-                    <div class="insights">
-                        <img class="insight" src="👀 insights.png" alt="Insights logo">
-                        <img class="contact" src="👋 contact.png" alt="Contact logo">
-                    </div>
-                </div>
-
-                <span class="line"></span>
-
-                <div class="foot-2">
-                    <img src="logo.png" alt="Innosphere logo">
-                    <p class="foot-p">© 2025 Innosphere. All Rights Reserved.</p>
-                    <div class="socials">
-                        <img src="facebook.png" alt="Facebook">
-                        <img src="Linkedin.png" alt="LinkedIn">
-                        <img src="Twitter.png" alt="Twitter">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Footer Ends-->
-
-
-
 
     </div>
 
 
 
+
+
+
+    <!-- Home Section with Background Image and Gradient Overlay -->
+    <div id="home-section" style="height: 100vh; display: flex; align-items: center; justify-content: center; font-size: 2rem;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 10%, rgba(255, 255, 255, 0) 100%), 
+    url('homebg.png') center/cover no-repeat;">
+        <div id="career-text-content" style="position: absolute; left: 10%; max-width: 650px; color: white; z-index: 2; display: flex; flex-direction: column;">
+
+            <h1 style="font-family: 'Roboto', sans-serif; font-weight: 650; font-size: 96px; color: #003A63; margin: 0;">
+                INNOSPHERE
+            </h1>
+            
+            <h2 style="font-family: 'Roboto', sans-serif; font-weight: 300; font-size: 46px; color: #003A63; margin: 0;">
+                SOFTWARE SOLUTIONS INC.
+            </h2>
+            
+            <p style="font-family: 'Roboto', sans-serif; font-weight: 400; font-size: 18px; color: #696C73; margin: 10px 0 20px 0;">
+                Innosphere offers BPO services, specializing in customer service, data management, and back-office support, 
+                using advanced technology to improve efficiency and reduce costs for clients across industries.
+            </p>
+        
+            <div id="career-buttons" style="margin-top: 15px; display: flex; gap: 12px;">
+                <button id="career-apply"
+                    style="font-size: 0.8rem; padding: 10px 40px; border: none; cursor: pointer; border-radius: 30px; font-weight: bold; transition: 0.3s ease-in-out; background-color: #007bff; color: white; border: 3px solid #007bff;"
+                    onmouseover="this.style.backgroundColor='#0056b3'"
+                    onmouseout="this.style.backgroundColor='#007bff'">Apply</button>
+                <button id="career-know-more"
+                    style="font-size: 0.8rem; padding: 10px 40px; border: none; cursor: pointer; border-radius: 30px; font-weight: bold; transition: 0.3s ease-in-out; background-color: #ddd; color: black; border: 3px solid #ddd;"
+                    onmouseover="this.style.backgroundColor='#ccc'" onmouseout="this.style.backgroundColor='#ddd'">Know more</button>
+            </div>
+        
+        </div>
+        
+    </div>
+
+    <!-- Services Section -->
+    <div id="services-section"
+        style="height: 100vh; display: flex; align-items: center; justify-content: center; font-size: 2rem; background: #e6e6e6;">
+        Services
+    </div>
+
+    <!-- Industries Section Starts -->
+    <div id="industries-section" style="height: 653px; background: url('IndustriesBG.png') no-repeat center center/cover;">
+        <h1 style="font-family: Arial, sans-serif; color: rgb(0, 0, 0); text-align: left; margin-bottom: 5px;">
+            Industries
+        </h1>
+        <h3
+            style="font-family: Arial, sans-serif; color: rgba(0, 0, 0, 0.582); text-align: left; font-weight: normal; margin-top: 0;">
+            A Wide Range of Business Areas Across Diverse Industries and Operational Functions
+        </h3>
+
+        <div id="industries-container"
+            style="display: flex; justify-content: space-between; gap: 20px; padding: 20px;">
+            <div id="industry"
+                style="background-color: #f4f4f4; border: 1px solid #ccc; padding: 20px; flex: 1; text-align: left; box-sizing: border-box;">
+                <h3 style="color: #363636;">Healthcare & Life Sciences</h3>
+                <p style="color: #666;">We provide solutions for digital health, telemedicine, patient management
+                    systems, and compliance in the healthcare sector.</p>
+            </div>
+
+            <div id="industry"
+                style="background-color: #f4f4f4; border: 1px solid #ccc; padding: 20px; flex: 1; text-align: left; box-sizing: border-box;">
+                <h3 style="color: #363636;">Finance & Fintech</h3>
+                <p style="color: #666;">Our solutions include payment processing, blockchain technologies, fraud
+                    detection, and financial data analytics.</p>
+            </div>
+
+            <div id="industry"
+                style="background-color: #f4f4f4; border: 1px solid #ccc; padding: 20px; flex: 1; text-align: left; box-sizing: border-box;">
+                <h3 style="color: #363636;">Retail & E-Commerce</h3>
+                <p style="color: #666;">We support e-commerce platforms, personalized shopping experiences, supply
+                    chain management, and AI-driven recommendations.</p>
+            </div>
+
+            <div id="industry"
+                style="background-color: #f4f4f4; border: 1px solid #ccc; padding: 20px; flex: 1; text-align: left; box-sizing: border-box;">
+                <h3 style="color: #363636;">Manufacturing & Industrial</h3>
+                <p style="color: #666;">We offer IoT solutions, predictive maintenance, supply chain optimization,
+                    and automation for manufacturing processes.</p>
+            </div>
+
+            <div id="industry"
+                style="background-color: #f4f4f4; border: 1px solid #ccc; padding: 20px; flex: 1; text-align: left; box-sizing: border-box;">
+                <h3 style="color: #363636;">Telecommunications</h3>
+                <p style="color: #666;">Our solutions enhance network management, billing automation, cloud
+                    communications, and real-time service optimization.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Industries Section Ends -->
+
+
+    <!-- Resources Section -->
+    <div id="resources-section"
+        style="height: 100vh; display: flex; align-items: center; justify-content: center; font-size: 2rem; background: #c2c2c2;">
+        Resources
+    </div>
+
+    <!-- Career Starts-->
+    <div id="career-section"
+        style="width: 100vw; height: 100vh; background: url('careerspic.jpg') no-repeat center center/cover; position: relative; display: flex; align-items: center; justify-content: flex-start;">
+        <div id="career-overlay"
+            style="position: absolute; top: 0; left: 0; width: 75%; height: 100%; background: linear-gradient(to right, #215379 50%, rgba(10, 52, 102, 0.7) 70%, rgba(10, 52, 102, 0) 100%);">
+        </div>
+        <div id="career-text-content"
+            style="position: absolute; left: 10%; max-width: 500px; color: white; z-index: 2;">
+            <h1 style="font-size: 6rem; font-weight: 900; color: white;">Careers</h1>
+            <p style="font-size: 1.9rem; color: white; margin: 10px 0;">"Join our team and explore exciting career
+                opportunities to grow professionally and make an impact."</p>
+            <div id="career-buttons" style="margin-top: 25px; display: flex; gap: 15px;">
+                <button id="career-apply"
+                    style="font-size: 0.8rem; padding: 8px 50px; border: none; cursor: pointer; border-radius: 30px; font-weight: bold; transition: 0.3s ease-in-out; background-color: #007bff; color: white; border: 3px solid #007bff;"
+                    onmouseover="this.style.backgroundColor='#0056b3'"
+                    onmouseout="this.style.backgroundColor='#007bff'">Apply</button>
+                <button id="career-know-more"
+                    style="font-size: 0.8rem; padding: 8px 50px; border: none; cursor: pointer; border-radius: 30px; font-weight: bold; transition: 0.3s ease-in-out; background-color: #ddd; color: black; border: 3px solid #ddd;"
+                    onmouseover="this.style.backgroundColor='#ddd'" onmouseout="this.style.backgroundColor='#ddd'">Know
+                    more</button>
+            </div>
+        </div>
+    </div>
+    <!-- Career Ends-->
+
+    <!-- About Us Section -->
+    <div id="about-section"
+        style="height: 100vh; display: flex; align-items: center; justify-content: center; font-size: 2rem; background: #9e9e9e;">
+        About Us
+    </div>
+
+
+    <!-- Footer Starts-->
+    <div id="footer-section"
+        style="height: 35vh; width: 100%; display: grid; place-items: center; background-color: #F0F0F0; color: var(--black); padding: 50px 50px;">
+        <div id="footer-container" style="padding: 0;">
+            <div id="foot-1" style="text-align: center;">
+                <h3 id="h3 foot-title">Experienced. Agile. Remote-Ready.</h3>
+                <p id="foot-description" style="text-align: center; padding: 20px 260px; color: #0A142F;">
+                    We're a dedicated, dynamic team that takes full responsibility for your customer interactions
+                    and supports you in executing your service goals, staying flexible and focused on delivering
+                    outstanding results.
+                </p>
+                <div id="insights" style="display: flex; align-items: center; justify-content: center; gap: 20px;">
+                    <img id="insight" src="👀 insights.png" alt="Insights logo"
+                        style="padding: 10px 20px; background-color: #F7F9FB; border-radius: 24px;">
+                    <img id="contact" src="👋 contact.png" alt="Contact logo"
+                        style="padding: 10px 20px; background-color: #F7F9FB; border-radius: 24px;">
+                </div>
+            </div>
+
+            <span id="line"
+                style="text-align: center; width: 1400px; height: 1px; background-color: #0F528B; margin: 10px 0; opacity: 10%;"></span>
+
+            <div id="foot-2" style="display: flex; align-items: center; justify-content: space-around; gap: 10px;">
+                <img src="logo.png" alt="Innosphere logo">
+                <p id="foot-p" style="padding-right: 80px; color: #0A142F;">© 2025 Innosphere. All Rights
+                    Reserved.</p>
+                <div id="socials" style="display: flex; align-items: center; gap: 10px;">
+                    <img src="facebook.png" alt="Facebook">
+                    <img src="Linkedin.png" alt="LinkedIn">
+                    <img src="Twitter.png" alt="Twitter">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Ends-->
+
 </body>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const links = document.querySelectorAll("a[href^='#']");
+        
+        links.forEach(link => {
+            link.addEventListener("click", function (event) {
+                event.preventDefault();
+                
+                const targetId = this.getAttribute("href").substring(1);
+                const targetElement = document.getElementById(targetId);
+                
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80, // Adjust for fixed navbar height
+                        behavior: "smooth"
+                    });
+                }
+            });
+        });
+    });
+</script>
 
 </html>

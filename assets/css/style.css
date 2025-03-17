@@ -271,6 +271,7 @@
     position: fixed;
     grid-row: 1/2;
     width: 100%;
+    
   }
 
     .main .nav-main .logo-container{
@@ -454,7 +455,6 @@
     @media (max-width: 576px) {
     
     }
-
 
     
 
