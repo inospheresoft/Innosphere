@@ -261,17 +261,7 @@
    */
 
 
-  .main .nav-main{
-    margin: 0 64px;
-    padding-top: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1000;
-    position: fixed;
-    grid-row: 1/2;
-    width: 100%;
-  }
+  
 
     .main .nav-main .logo-container{
         flex: 4;
@@ -298,12 +288,97 @@
 
     .main .nav-main .menu-container li a:is(:hover, :focus-visible) { color: var(--primary-color);}
 
+/*** CAREER SECTION
+*/
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Full-screen background container */
+.career-section {
+  width: 100vw;
+  height: 100vh;
+  background: url('careerspic.jpg') no-repeat center center/cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* Dark blue overlay with gradient effect */
+.career-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 75%; /* Adjust width for proper fading */
+  height: 100%;
+  background: linear-gradient(to right, #0a3466 50%, rgba(10, 52, 102, 0.7) 70%, rgba(10, 52, 102, 0) 100%);
+}
+
+/* Text content styling */
+.career-text-content {
+  position: absolute;
+  left: 10%;
+  max-width: 500px;
+  color: white; /* Ensure all text is white */
+  z-index: 2;
+}
+
+.career-text-content h1 {
+  font-size: 6rem; /* Increased size */
+  font-weight: 900; /* Bolder */
+  color: white; /* Ensure "Careers" is white */
+}
+
+.career-text-content p {
+  font-size: 1.9rem; /* Increased font size */
+  color: white; /* Ensure text is white */
+  margin: 10px 0;
+}
+
+/* Buttons styling */
+.career-buttons {
+  margin-top: 25px;
+  display: flex;
+  gap: 15px;
+}
+
+button {
+  font-size: 0.8rem;
+  padding: 8px 50px;
+  border: none;
+  cursor: pointer;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: 0.3s ease-in-out;
+}
+
+.career-apply {
+  background-color: #007bff;
+  color: white;
+  border: 3px solid #007bff;
+}
+
+.career-apply:hover {
+  background-color: #0056b3;
+}
+
+.career-know-more {
+  background-color: #ddd;
+  color: black;
+  border: 3px solid #ddd;
+}
+
+.career-know-more:hover {
+  background-color: #ddd;
+}
 
 
-
-  /**
-   * MAIN
-   */
+  /*** MAIN*/
 
   
   
@@ -356,16 +431,18 @@
    * FOOTER
    */
    
-    .footer-section{
-        height: 70vh;
-        grid-row: 7/8;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-        background-color: #F0F0F0;
-        color: var(--black);
-        padding: 76px 67px;
-    }
+   .footer-section {
+    height: 50vh; /* Reduced height */
+    width: 100%; /* Full width */
+    display: grid;
+    place-items: center; /* Centers content */
+    background-color: #F0F0F0;
+    color: var(--black);
+    padding: 50px 50px; /* Adjusted padding */
+}
+
+
+
 
     .footer-section .footer-container{
         padding: 0;
