@@ -131,21 +131,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     
 
-    scrollContainer.addEventListener("mouseleave", () => {
-        isDown = false;
-        scrollContainer.classList.remove("active");
-    });
-
-    
-
-    scrollContainer.addEventListener("mousemove", (e) => {
-        if (!isDown) return;
-        e.preventDefault();
-        const x = e.pageX - scrollContainer.offsetLeft;
-        const walk = (x - startX) * 2; // Scroll speed
-        scrollContainer.scrollLeft = scrollLeft - walk;
-    });
-
     // Touch gesture support for mobile
     let touchStartX;
     let touchScrollLeft;
