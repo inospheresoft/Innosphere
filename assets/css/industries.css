@@ -75,7 +75,7 @@
 /* Mobile View Industries Section Styles */
 @media (max-width: 768px) {
     #industries-section {
-        height: 900px!important; /* Ensures a taller section */
+        height: 1000px!important; /* Ensures a taller section */
         max-height: 100vh; /* Ensures it covers at least the viewport height */
     }
 
