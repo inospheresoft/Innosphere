@@ -558,6 +558,7 @@
  .nav-main {
       padding: 64px 50px;
     }
+
   }
   
   @media (max-width: 560px) {
@@ -579,16 +580,17 @@
   }
   
   @media (max-width: 464px) {
- .nav-main {
-      padding: 64px 30px;
-    }
+    .nav-main {
+      height: 90px;
+      padding: 0px 10px;
+  }
   
  .nav-main .logo-container {
       width: 50%;
     }
   
  .nav-main .logo-container img {
-      width: 95%;
+      width: 80%;
     }
   }
   
