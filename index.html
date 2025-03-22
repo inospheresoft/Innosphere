@@ -17,42 +17,39 @@
 </head>
 
 <body
-    style="margin: 0; padding: 0; font-family: Arial, sans-serif; scroll-behavior: smooth; overflow-x: hidden; width: 100vw;">
+    style="margin: 0; padding: 0; 
+    font-family: Arial, 
+    sans-serif; 
+    scroll-behavior: smooth; 
+    overflow-x: hidden; 
+    width: 100%;">
 
-    <!-- Navbar -->
-    <div class="navbar">
-        <!-- Clickable Logo -->
-        <div class="logo" id="logo">
-            <img src="assets/images/logo.png" alt="Innosphere logo">
+    <!-- Navbar Starts -->
+    <div class="nav-main">
+        <div id="logo-container" class="logo-container">
+            <img src="/assets/images/logo.png" alt="Innosphere logo">
         </div>
-
-        <!-- Centered menu for desktop only -->
-        <ul class="nav-menu">
-            <li><a href="#home-section">Home</a></li>
+        <ul class="menu-container">
+            <li><a href="#">Home</a></li>
             <li><a href="#services-section">Services</a></li>
             <li><a href="#industries-section">Industries</a></li>
             <li><a href="#resources-section">Resources</a></li>
             <li><a href="#career-section">Career</a></li>
             <li><a href="#about-section">About</a></li>
         </ul>
-
-        <!-- Contact Button (Right Side) -->
-        <div class="contact-btn">
-            <a href="#">Contact Us</a>
+        <div class="btn-container">
+            <a class="btn" href="">Contact Us</a>
         </div>
     </div>
-
-    <!-- Mobile Overlay -->
-    <div class="overlay" id="overlay">
-        <div class="overlay-content">
-            <!-- Logo Inside Overlay -->
-            <div class="overlay-logo">
-                <img src="assets/images/overlaylogo.png" alt="Innosphere logo" id="overlay-logo">
+    
+    <!-- Navbar mobile -->
+    <div class="nav-mobile" id="nav-mobile">
+        <div class="container">
+            <div id="logo-container-1" class="logo-container-1">
+                <img src="/assets/images/logo-light.png" alt="Innosphere logo">
             </div>
-
-            <!-- Mobile Navigation Menu -->
-            <ul>
-                <li><a href="#home-section">Home</a></li>
+            <ul class="menu-container">
+                <li><a href="#">Home</a></li>
                 <li><a href="#services-section">Services</a></li>
                 <li><a href="#industries-section">Industries</a></li>
                 <li><a href="#resources-section">Resources</a></li>
@@ -60,86 +57,65 @@
                 <li><a href="#about-section">About</a></li>
             </ul>
         </div>
-
-        <!-- Clickable Black Backdrop (50%) -->
-        <div class="overlay-backdrop" id="overlay-backdrop"></div>
+        <div class="btn-container">
+            <a class="btn-mobile" href="#">Contact Us</a>
+        </div>
     </div>
+    <!-- Navbar Ends -->
 
 
 
 
-    <!-- Home Section -->
-    <div id="home-section"
-        style="background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 10%, rgba(255, 255, 255, 0) 100%), url('assets/images/homebg.png') center/cover no-repeat;">
-        <div id="home-text-content">
-            <h1>INNOSPHERE</h1>
-            <h2>SOFTWARE SOLUTIONS INC.</h2>
-            <p>
-                Innosphere offers BPO services, specializing in customer service, data management, and back-office
-                support, using advanced technology to improve efficiency and reduce costs for clients across industries.
-            </p>
-            <div id="home-buttons">
-                <button id="home-apply">Apply</button>
-                <button id="home-know-more">Know more</button>
+     <!-- Home Section Starts -->
+     <div class="home-section" style="background: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)), url('/assets/images/homebg.png') center/cover no-repeat;">
+        <div class="hero-main">
+            <div class="hero-container" style="padding-bottom: 100px;">
+                <h2 class="hero-title h2">INNOSPHERE</h2>
+                <h3 class="hero-subtitle h5">SOFTWARE SOLUTIONS INC.</h3>
+                <p class="hero-description">
+                    Innosphere offers BPO services, specializing in customer service, data management,
+                    and <br> back-office support, using advanced technology to improve efficiency and reduce costs for <br> clients across industries.
+                </p>
+                <div class="button-container">
+                    <a class="btn hero-button" href="#">About us</a>
+                    <a id="btn-light" class="btn-light hero-button" href="#">Know more</a>
+                </div>
             </div>
         </div>
     </div>
     <!-- Home Section Ends -->
 
     <!-- Services Section -->
-    <div id="services-section">
-        <!-- First Column: Title & Description -->
-        <div id="services-header">
-            <h2>Services</h2>
-            <p>Discover the range of services <br>we offer to meet your needs.</p>
+    <div id="services-section" class="services-section">
+        <div class="services-text-container">
+            <div class="services-text">
+                <h1>Services</h1>
+                <p>Discover the range of services we offer to meet your needs.</p>
+            </div>
         </div>
-
-        <!-- Second Column: Service Cards -->
-        <div id="services-container">
-
-            <!-- First Service Card -->
-            <div id="service-innosphere-1">
-                <div id="service-innosphere-content-1">
-                    <h2>INNOSPHERE</h2>
-                    <p>
-                        Innosphere offers BPO services, specializing in customer service, data management, and
-                        back-office support, using advanced technology to improve efficiency and reduce costs for
-                        clients across industries.
-                    </p>
-                    <button>Contact us</button>
+        
+        <div class="services-cards-container">
+            <div class="services-cards">
+                <div class="card light">
+                    <h2 class="lights">INNOSPHERE</h2>
+                    <p>Innosphere offers BPO services, specializing in customer service, data management, and back-office support, using advanced technology to improve efficiency and reduce costs for clients across industries.</p>
+                    <a class="btn service-button" href="#">Contact us</a>
                 </div>
-            </div>
-
-            <!-- Second Service Card -->
-            <div id="service-innosphere-2">
-                <div id="service-innosphere-content-2">
+                <div class="card medium">
                     <h2>INNOSPHERE</h2>
-                    <p>
-                        Innosphere offers BPO services, specializing in customer service, data management, and
-                        back-office support, using advanced technology to improve efficiency and reduce costs for
-                        clients across industries.
-                    </p>
-                    <button>Contact us</button>
+                    <p class="lighter">Innosphere offers BPO services, specializing in customer service, data management, and back-office support, using advanced technology to improve efficiency and reduce costs for clients across industries.</p>
+                    <a class="btn service-button" href="#">Contact us</a>
                 </div>
-            </div>
-
-            <!-- Third Service Card -->
-            <div id="service-innosphere-3">
-                <div id="service-innosphere-content-3">
+                <div class="card dark">
                     <h2>INNOSPHERE</h2>
-                    <p>
-                        Innosphere offers BPO services, specializing in customer service, data management, and
-                        back-office support, using advanced technology to improve efficiency and reduce costs for
-                        clients across industries.
-                    </p>
-                    <button>Contact us</button>
+                    <p class="lighter">Innosphere offers BPO services, specializing in customer service, data management, and back-office support, using advanced technology to improve efficiency and reduce costs for clients across industries.</p>
+                    <a class="btn service-button" href="#">Contact us</a>
                 </div>
+                
             </div>
-
         </div>
-
+       
     </div>
-    <!-- Services Section Ends -->
 
     <!-- Industries Section Starts -->
     <div id="industries-section"
