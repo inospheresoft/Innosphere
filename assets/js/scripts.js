@@ -116,34 +116,3 @@ function toggleBrTags() {
     }
 }
 
-// Run on page load
-toggleBrTags();
-
-// Run on window resize
-window.addEventListener('resize', toggleBrTags);
-
-    
-    
-document.addEventListener("DOMContentLoaded", function () {
-    const scrollContainer = document.querySelector(".services-cards-container");
-    
-    
-
-    
-
-    // Touch gesture support for mobile
-    let touchStartX;
-    let touchScrollLeft;
-
-    scrollContainer.addEventListener("touchstart", (e) => {
-        touchStartX = e.touches[0].pageX - scrollContainer.offsetLeft;
-        touchScrollLeft = scrollContainer.scrollLeft;
-    });
-
-    scrollContainer.addEventListener("touchmove", (e) => {
-        e.preventDefault();
-        const touchX = e.touches[0].pageX - scrollContainer.offsetLeft;
-        const walk = (touchX - touchStartX) * 2; // Adjust scroll speed
-        scrollContainer.scrollLeft = touchScrollLeft - walk;
-    });
-});

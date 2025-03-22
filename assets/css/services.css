@@ -239,7 +239,6 @@
         width: 440px;
         padding: 10px;
         scroll-behavior: smooth;
-        scrollbar-width: none;
         -ms-overflow-style: none;
     }
 
@@ -291,7 +290,6 @@
         width: 440px;
         padding: 10px;
         scroll-behavior: smooth;
-        scrollbar-width: none;
         -ms-overflow-style: none;
     }
 
@@ -366,7 +364,6 @@
         width: 350px;
         padding: 10px;
         scroll-behavior: smooth;
-        scrollbar-width: none;
         -ms-overflow-style: none;
     }
 
